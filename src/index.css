@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap")
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.linear-gradient {
+  background-image: linear-gradient(to bottom, #dabb94, #cca47b);
+}
+
+.rotate {
+  transform: rotate(-30deg);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.rotate-135 {
+  transform: rotate(135deg);
+}
+.rotate-text {
+  transform: rotate(180deg);
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  /* text-orientation: upright; */
+}
+
+.hoverBtn {
+  transition: all 0.4s ease 0s !important;
+  /* z-index: 30; */
+}
+.hoverBtn:hover {
+  transform: scale(1.15);
+  overflow: hidden !important;
+  z-index: 10;
+}
+
+.border-top {
+  border-top: 1px solid #8c785e;
+}
