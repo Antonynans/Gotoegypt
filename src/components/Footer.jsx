@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-transparent pb-16 px-3">
+    <footer className="bg-[#cca479] py-16 px-3">
       <div className="container mx-auto pt-8 border-top lg:flex justify-between items-center">
         <p>All rights reserved © 2024</p>
         <p className="text-white font-poppins font-bold lg:py-0 py-4">GOTOEGYPT.</p>

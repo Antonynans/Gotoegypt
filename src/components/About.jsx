@@ -1,6 +1,6 @@
 import { HiArrowLongLeft, HiArrowLongRight } from "react-icons/hi2";
-import { SlArrowRight } from 'react-icons/sl'
-import Footer from './Footer';
+import { SlArrowRight } from "react-icons/sl";
+import Footer from "./Footer";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
@@ -35,7 +35,6 @@ export default function About() {
               className="absolute w-full h-full object-contain lg:-top-20 lg:-left-8"
             />
             <div className="absolute -right-8 top-0 flex vertical-text">
-              
               <p className="text-sm rotate-text">Tutankhamum 1336-1327 BCE</p>
               <SlArrowRight className="text-white text-2xl rotate-45" />
             </div>
@@ -51,7 +50,6 @@ export default function About() {
               className="absolute lg:w-[120%] w-full h-full object-contain lg:-top-20 lg:-left-0"
             />
             <div className="absolute -left-8  flex vertical-text">
-             
               <p className="text-sm rotate-text">Bastet 2890 BCE</p>
               <SlArrowRight className="text-white text-2xl rotate-135" />
             </div>
@@ -75,7 +73,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex justify-center lg:pt-0 py-[10%]">
-          <button className="border border-solid border-black flex items-center justify-center gap-x-2 h-14 bg-transparent px-16 text-lg">
+          <button className="border border-solid border-black flex items-center justify-center gap-x-2 h-14 bg-transparent px-16 text-lg hoverButton">
             SHOW MORE <HiArrowLongRight />
           </button>
         </div>
@@ -160,29 +158,8 @@ export default function About() {
             </button>
           </div>
         </section>
-        <section className="pb-[5%]">
-        <p className="text-center text-sm pb-4">THANK YOU</p>
-        <h1 className="lg:text-3xl text-white font-poppins text-center">
-          To our Sponsors and <br /> Event
-          <span className="text-black"> Partners</span>
-        </h1>
-        <div className="py-[5%] flex flex-wrap items-center justify-center gap-x-8">
-          <img src="/national_geographic.png" alt="national geographic logo" className="w-20 h-20 object-contain" />
-          <img src="/pyramid.png" alt="pyramid international logo" className="w-20 h-20 object-contain" />
-          <img src="/bbc.jpg" alt="bbc logo" className="w-20 h-20 object-contain" />
-          <img src="/lonely_planet.png" alt="lonely planet logo" className="w-20 h-20 object-contain" />
-        </div>
-        <div className="flex justify-center pb-[5%]">
-          <button className="border border-solid border-black flex items-center justify-center gap-x-2 h-14 bg-transparent px-16 text-lg">
-            BOOK NOW <HiArrowLongRight />
-          </button>
-
-        </div>
-        <div className="flex justify-center">
-        <img src="/donkey.png" alt="" className="w-[280px] object-cover bg-bottom" />
-        </div></section>
+        
       </div>
-      <Footer />
     </main>
   );
 }

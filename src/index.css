@@ -53,3 +53,13 @@
 .border-top {
   border-top: 1px solid #8c785e;
 }
+.hoverButton {
+  transition: all 600ms linear;
+  cursor: pointer;
+ 
+}
+.hoverButton:hover {
+  background-color: black;
+  color: white;
+  /* transform: translateX(10px); */
+}
